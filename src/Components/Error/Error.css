@@ -1,0 +1,24 @@
+.error {
+  padding: 15px 20px;
+  text-align: center;
+  background-color: #f8d7da;
+  border: 1px solid #f4c6cb;
+  color: #711e25;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error__text {
+  margin-right: 10px;
+}
+
+.error__btn {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

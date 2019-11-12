@@ -1,0 +1,14 @@
+.details {
+  max-width: 350px;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.details__item {
+  padding: 5px;
+}
+
+.details__item:not(:last-child) {
+  border-bottom: 1px solid lightslategray;
+}

@@ -1,0 +1,21 @@
+.service-list {
+  max-width: 300px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.service-list__item {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+}
+
+.service-list__item:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.service-list__item:hover, .service-list__item:focus {
+  background-color: lightgreen;
+}
